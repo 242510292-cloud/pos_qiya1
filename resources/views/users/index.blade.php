@@ -6,7 +6,9 @@
 
 @include('layouts.navbar')
 
-<h1>Users</h1>
+<div class="text-center mb-5">
+<h1><i class="bi bi-people-fill"></i>Users</h1>
+</div>
 <a href="{{ route('admin.users.create') }}" class="btn btn-primary">Create</a>
 
 <form action="{{ route('admin.users') }}" method="GET" class="mb-3">

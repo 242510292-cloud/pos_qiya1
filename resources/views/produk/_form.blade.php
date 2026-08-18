@@ -43,34 +43,7 @@
         </div>
     @enderror
 </div>
-<div class="mb-3">
 
-    <label class="form-label">
-        Jenis Produk
-    </label>
-
-    <select name="jenis" class="form-select">
-
-        <option value="">
-            -- Pilih Jenis --
-        </option>
-
-        <option value="Makanan">
-            Makanan
-        </option>
-
-        <option value="Minuman">
-            Minuman
-        </option>
-        
-        <option value="Snack">
-            Snack
-        </option>
-
-    </select>
-
-</div>
-</div>
 <div>
     <label>Harga Beli</label><br>
     <input type="number" name="purchase_price"

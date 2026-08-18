@@ -12,7 +12,9 @@
 </div>
 @endif
 
-<h1>Penjualan</h1>
+<div class="text-center mb-5">
+<h1><i class="bi bi-cart-check-fill"></i>Penjualan</h1>
+</div>
 
 <a href="{{ route('penjualan.create') }}" class="btn btn-primary mb-3">
     Create

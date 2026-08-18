@@ -8,3 +8,41 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
      'Segoe UI Symbol', 'Noto Color Emoji';
 }
+.custom-navbar {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+   .profile-photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #0d6efd;
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 18px 20px;
+}
+ .profile-logo {
+    width: 50px;
+    height: 100px;
+    margin: 0 auto;
+ }
+ .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}

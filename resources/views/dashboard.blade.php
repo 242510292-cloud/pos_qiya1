@@ -8,6 +8,7 @@
 
 <div class="text-center mb-5">
     <h1 class="fw-bold text-primary">
+        <i class="bi bi-house-check-fill"></i>
         Dashboard POS
     </h1>
 
@@ -100,7 +101,7 @@
 
 <div class="row g-4">
 
-    <div class="col-12">
+    <div class="text-center mb-5">
         <h3 class="text-primary fw-bold">
             Critical Inventory Status
         </h3>
@@ -110,7 +111,7 @@
 
         <div class="card shadow border-0">
 
-            <div class="card-header bg-warning text-dark">
+            <div class="card-header bg-danger text-white">
                 Produk Stok Rendah
             </div>
 

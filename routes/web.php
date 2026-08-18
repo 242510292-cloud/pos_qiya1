@@ -32,5 +32,6 @@ Route::middleware('auth')->group(function () {
        Route::resource('/penjualan', PenjualanController::class);
        Route::resource('/itempenjualan', ItemPenjualanController::class);
        Route::resource('/penjualan', PenjualanController::class);
+       Route::get('/profile', function () {return view('profile');})->middleware('auth');
      });
 });

@@ -6,7 +6,9 @@
 
 @include('layouts.navbar')
 
-<h1>Produk</h1>
+<div class="text-center mb-5">
+<h1><i class="bi bi-box2-heart-fill"></i>Produk</h1>
+</div>
 
 @can ('create', App\Models\Produk::class)
 <a href="{{ route('produk.create') }}" class="btn btn-primary mb-3">create</a>
@@ -34,7 +36,6 @@
             <th>User</th>
             <th>Foto</th>
             <th>Nama</th>
-            <th>Jenis</th>
             <th>Harga_Beli</th>
             <th>Harga_Jual</th>
             <th>Stok</th>
@@ -74,10 +75,6 @@
 
             <td>
                 {{ $product->nama }}
-            </td>
-
-            <td>
-                {{ $product->jenis }}
             </td>
 
             <td>
